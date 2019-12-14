@@ -15,6 +15,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [] And more!
 
+### Decorators
+- () What exactly is a decorator?
+- () How it just wraps code?
+- () Makes code easy to read and maintain
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
