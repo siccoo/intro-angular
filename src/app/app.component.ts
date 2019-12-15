@@ -9,14 +9,14 @@ function log(className) {
    }
   }
 
-@log class myExample {
-  constructor(arg1, ar2) {
+@log
+class myExample {
+  constructor(arg1, arg2) {
     console.log("Constructor fired"); 
   }
 }
 
 const myClass = new myExample(5, 10)
-
 
 @Component({ 
   selector: 'app-root',
