@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 function log(className) {
    console.log(className);
@@ -9,8 +9,8 @@ function log(className) {
    }
   }
 
-@log
-class myExample {
+@Input()
+  class myExample {
   constructor(arg1, arg2) {
     console.log("Constructor fired"); 
   }
@@ -25,6 +25,7 @@ const myClass = new myExample(5, 10)
 })
 
 export class AppComponent {
+  @Input()
   title = 'intro2angular';
 
   constructor() {
