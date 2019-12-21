@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HelloComponent } from './hello/hello.component';
 
 // function log(className) {
 //    console.log(className);
