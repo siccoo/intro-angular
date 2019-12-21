@@ -36,6 +36,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - () Declaring a component
 - () Basic component use
 
+## Interpolation and Expressions
+- What is Interpolation?
+- Its symbol
+- Expressions used in interpolation
+- Prohibited expression syntax examples
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
