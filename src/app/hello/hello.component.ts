@@ -10,6 +10,7 @@ export class HelloComponent implements OnInit {
   myvariable = "Moya, Nich & Michael";
   bitwiseOR = 2 | 5 // 010 101 => 0 | 1 = 1 then 1 | 1 = 0 then 1 | 0 = 1; 111
   i = 9;
+  someVar = Math.random()
 
   constructor() { }
 
@@ -19,6 +20,9 @@ export class HelloComponent implements OnInit {
   }
 
   ngOnInit() {
+    // setInterval(() => {
+    //   this.someVar = Math.random()
+    // }, 50)
   }
 
 }
