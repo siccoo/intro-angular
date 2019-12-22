@@ -2,6 +2,9 @@ Hello people! The other component says <app-hello></app-hello>
 <input type="text" value="{{myVariable}}" [disabled]="myDisabledValue" />
 
 <button (click)="callMyFunction()">Hey there!</button>
+
+<input type="text" [(ngModel)]="text" >
+{{text}}
 <!-- <test *ngFor="let l of list">
   {{l}}
 </test>

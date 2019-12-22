@@ -47,6 +47,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Source to target -> []
 - Target to source -> ()
 - Two way data binding
+* Meaning of two-way data binding
+* Example of two-way data binding
+* ngModel directive
 
 ## Development server
 
